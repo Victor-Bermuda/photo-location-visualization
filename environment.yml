@@ -1,0 +1,12 @@
+name: photo_mapper_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pandas
+  - plotly
+  - pillow
+  - exifread
+  - pip
+  - pip:
+      - jupyterlab
